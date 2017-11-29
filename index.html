@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Adopt an Exotic Animal</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="homepage well">
+        <div class="header">
+          <h1>Welcome to Portland Exotic Animals</h2>
+          <p>We appreciate your support in helping to protect endangered species. Please complete the form below to support one of our wonderful aminals.
+          </p>
+        </div>
+        <form id="adopt">
+          <div class="form-group">
+            <label for="name">Please enter your full name:</label>
+            <input id="name" class="form-control" type="text" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="name">Please enter your address:</label>
+            <input id="addressline1" class="form-control" type="text" placeholder="address line 1">
+            <input id="addressline2" class="form-control" type="text" placeholder="address line 2">
+            <input id="city" class="form-control" type="text" placeholder="city">
+            <input id="state" class="form-control" type="text" placeholder="state">
+            <input id="zipcode" class="form-control" type="text" placeholder="zipcode">
+          </div>
+          <label for="animal">Select the animal you wish to "adopt" below</label>
+          <select class="form-control" id="animal">
+            <option>Lemmy the Lemur</option>
+            <option>Yokai the Llama</option>
+            <option>Barry the Bear</option>
+            <option>Tony the Tiger (he's Great)</option>
+          </select>
+          <button type="submit" class="btn btn-default">place order</button>
+        </form>
+      </div>
+      <img id="lemur" src="img/lemur.jpg" alt="lemur">
+      <img id="llama" src="img/llama.jpg" alt="llama">
+      <img id="bear" src="img/bear.jpg" alt="bear">
+      <img id="tiger" src="img/tiger.jpg" alt="tiger">
+      <div class="receipt well">
+        <div class="header">
+          <h1><span class="animal"></span> thanks you for your donation!</h1>
+          <h2>Here is your shipping confirmation:</h2>
+          <p><span class="name"></span></p>
+          <p><span class="addressline1"></span></p>
+          <p><span class="addressline2"></span></p>
+          <p><span class="city"></span>, <span class="state"></span> <span class="zipcode"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

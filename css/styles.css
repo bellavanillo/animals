@@ -1,0 +1,41 @@
+.receipt {
+  display: none;
+}
+
+img {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: fantasy;
+  color: white;
+  font-weight: bolder;
+  font-size: 60px;
+  text-shadow: 1px 1px black;
+}
+
+p{
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+body {
+  background-image: url("../img/amazon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.well {
+  background-color: rgba(16, 99, 33, 0.6)
+}
+
+label {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+h2 {
+  text-shadow: 1px 1px black;
+  color: white;
+}
