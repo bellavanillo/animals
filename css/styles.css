@@ -22,7 +22,7 @@ p{
   text-shadow: 1px 1px black;
 }
 body {
-  background-image: url("../img/amazon.jpg");
+  background-image: url("../img/ocean.jpeg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -33,6 +33,7 @@ div.well {
 
 label {
   color: white;
+  font-size: 20px;
   text-shadow: 1px 1px black;
 }
 h2 {
